@@ -1,0 +1,408 @@
+body{
+    background-color: black;
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+}
+:root{
+    --maincolor:  rgb(39, 38, 38);
+    --divcolor: rgb(55, 53, 53);
+    --fontcolor: rgb(214, 214, 214);
+    --maindiv:#fa6372d7
+}
+
+
+
+.sp1{
+    background-color: var(--maincolor);
+    color: var(--fontcolor);
+    width: 25%;
+    padding-left: 25px;
+    padding-top: 20px;
+    border-radius: 5px;
+}
+
+.logo{
+    fill: rgb(255, 255, 255);
+}
+
+.home{
+    height: 15px;
+    width: 15px;
+    display:inline-block;
+}
+.home1:hover{
+    color: white; 
+}
+.home2{
+    display: inline-block;
+    margin-bottom: 0;
+    padding-left: 10px;
+}
+.home3{
+    height: 15px;
+    width: 15px;
+   display:inline-block; 
+} 
+.search{
+    display: inline-block;
+    padding-left: 10px;
+}
+.search:hover{
+    color: white;
+}
+.srch{
+    padding: 0;
+}
+
+
+
+
+
+
+.sp2{ 
+    background-color:var(--maincolor);
+    color:var(--fontcolor) ;
+    width: 25%;
+    padding-left: 25px;
+    padding-top: 20px;
+    border-radius: 5px;
+    margin-top: 5px;
+}
+.library{
+   height: 15px;
+   width: 15px;
+}
+.lbry{
+    display: inline;
+    padding-left: 10px;
+}
+.add{
+    display: inline;
+    height: 10px;
+    width: 10px;
+    padding-left: 60%;
+}
+.fstply{
+    background-color:var(--divcolor);
+    color: aliceblue;
+    width: 90%;
+    padding-left: 15px;
+    padding-top: 1px;
+    border-radius: 10px;
+    margin-top: 10px;
+}
+.play{
+    color: black;
+    background-color: white;
+    border-radius: 50px;
+    padding: 7px 15px;
+    margin-bottom: 15px;
+    border: none;
+}
+.play:hover{
+    transform: scale(1.05); 
+    transition: 0.5s;
+}
+.lbry:hover{
+    color: white;
+}
+.podcast{
+    background-color:var(--divcolor);
+    color: aliceblue;
+    width: 90%;
+    padding-left: 15px;
+    padding-top: 1px;
+    border-radius: 10px;
+    margin-top: 10px;
+}
+.browse{
+    color: black;
+    background-color: white;
+    border-radius: 50px;
+    padding: 7px 15px;
+    margin-bottom: 15px;
+    border: none;
+}
+.browse:hover{
+    transform: scale(1.05); 
+    transition: 0.5s;
+}
+.legal{
+    margin-top: 230px;
+    display: flex;
+    justify-content: flex-start;
+    font-size:x-small;
+}
+.about{
+    display: flex;
+    justify-content: flex-start;
+    font-size:x-small; 
+}
+.cookies{
+    display: flex;
+    font-size:x-small; 
+}
+
+.acc{
+    margin-left: 15px;
+}
+.lgl{
+    margin-left: 15px;
+}
+.eng{
+    color: white;
+    background-color: rgb(39, 38, 38);
+    border-radius: 50px;
+    padding: 7px 15px;
+    margin-bottom: 45px;
+    margin-top:30px ;
+    border: white  1px solid;
+}
+.eng:hover{
+    transform: scale(1.05); 
+    transition: 0.5s;
+}
+.engl{
+    height: 15px;
+    width: 15px;
+}
+.icon{
+    margin-left: 20px;
+}
+
+
+
+
+.sp3{
+    background-color:#fa63728c;
+    color:white ;
+    width: 71%;
+    padding-left: 25px;
+    padding-top: 16px;
+    border-radius: 7px 7px 0 0;
+    margin-top: 5px;
+    position: absolute;
+    left: 27%;
+    top: 3px;
+}
+.back{
+    border-radius: 50%;
+    border: none;
+    height: 30px;
+    width: 30px;
+    background-color: rgba(41, 39, 39, 0.507);
+    color: rgb(199, 199, 200);
+}
+.next{
+    border-radius: 50%;
+    border: none;
+    height: 30px;
+    width: 30px;
+    background-color: rgba(221, 87, 87, 0.526);
+    color: rgb(199, 199, 200);
+}
+.signup{
+    color: rgba(240, 248, 255, 0.636);
+    border-radius: 50px;
+    padding: 15px 25px;
+    border: none;
+    background-color:#93101d00;;
+    position: absolute;
+    right: 120px;
+    opacity: 0.9;
+}
+.signup:hover{
+    transform: scale(1.1); 
+    color: aliceblue;
+    transition: 0.5s;
+}
+.login{
+    color: black;
+    border-radius: 50px;
+    padding: 15px 25px;
+    border: none;
+    background-color:white;
+    position: absolute;
+    right: 20px;
+}
+.login:hover{
+    transform: scale(1.1); 
+    transition: 0.5s;
+}
+.ver,.pic{
+   display: inline-block;
+}
+.arijit{
+    margin-top: 40px;
+    border-radius: 50%;
+    height: 250px;
+    width: 250px;
+}
+.arj{
+    height: 30px;
+    width: 30px;
+    display: inline-block;
+    position: absolute;
+    left:300px;
+    top: 150px;
+}
+.artist{
+    display: inline-block;
+}
+.name{
+    font-size: 90px;
+    font-weight: 700;
+}
+.verify{
+    position: relative;
+    top: 10px;
+    height: 30px;
+    width: 30px;
+}
+.verifyContainer{
+    position: relative;
+    top: 70px;
+}
+.value{
+    position: relative;
+    bottom: 50px;
+}
+.ver{
+    position: relative;
+    left: 20px;
+    bottom: 10px;
+}
+
+
+
+.sp4{
+    background-image: linear-gradient(#00000070, rgb(0, 0, 0));
+    background-color:var(--maindiv);
+    color:white ;
+    width: 71%;
+    padding-left: 25px;
+    padding-top: 2px;
+    border-radius:0 0 5px 5px;
+    margin-top: 0px;
+    position: absolute;
+    left: 27%;
+    top: 370px;
+}
+.playbutton{
+    background-color: #1ed760;
+    border: none;
+    height: 60px;
+    width: 60px;
+    border-radius: 50%;
+}
+.playbutton:hover{
+    transform: scale(1.1); 
+    transition: 0.5s;
+}
+.plays{
+    height: 20px;
+    width: 20px;
+    background-color: #1ed760;
+    position: relative;
+    top: 2px;
+    left: 1.5px;
+}
+.follow{
+    color: white;
+    background-color: rgba(39, 38, 38, 0.56);
+    border-radius: 50px;
+    padding: 7px 15px;
+    margin-bottom: 30px;
+    margin-top:30px ;
+    border: white  0.1px solid; 
+    position: relative;
+    left: 20px;
+} 
+.follow:hover{
+    transform: scale(1.05); 
+    transition: 0.5s;
+}
+.more{
+    display: inline-block;
+}
+.options{
+    display: inline-block;  
+    position: relative;
+    left: 40px;
+}
+.sNo1, .animal, .number1,.time1, .song1 ,.sNo2,.Chaleyaa,.number2,.time2,.song2 ,.sNo3, .O_maahi,.number3 ,.time3, .song3,.sNo4, .Heeriye,.number4 ,.time4, .song4,.sNo5, .apna_bana_le,.number5 ,.time5, .song5 {
+    display: inline-block;
+}
+.satranga ,.chaleya ,.o_maahi, .heeriye ,.Apna_bana_le{
+    height: 50px;
+    width: 50px;
+    position: relative;
+    top: 15px;
+    margin-left: 15px;
+}
+.animal ,.Chaleyaa ,.O_maahi , .Heeriye , .apna_bana_le{
+    margin-left: 15px;
+}
+.number1 {
+    margin-left: 90px;
+}
+.number2{
+    margin-left: 265px;
+}
+.number3{
+    margin-left: 264px;
+}
+.number4{
+    margin-left: 97px;
+}
+.number5{
+    margin-left: 206px;
+}
+.time1, .time2 , .time3,.time4,.time5{
+    margin-left: 120px;
+}
+.no1 ,.no2 ,.no3 ,.no4 ,.no5{
+    padding-left: 10px;
+}
+.no1:hover , .no2:hover , .no3:hover , .no4:hover , .no5:hover{
+   background-color: rgba(16, 16, 16, 0.312);
+   border-radius: 5px;
+   width: 700px;
+}
+.smallImage{
+    border-radius: 50%;
+    height: 30px;
+    width: 30px;
+}
+.posted , .artistDetail ,.pick ,.smallPick{
+    display: inline-block;
+}
+.artistPick{
+    position: absolute;
+    left: 840px;
+    bottom: 280px;
+}
+.post{
+    position: relative;
+    top: 17px;
+}
+.pick{
+    position: relative;
+    bottom: 14px;
+}
+.soulmate ,.SONG{
+    position: relative;
+    bottom: 13px;
+}
+.smallPick{
+    position: relative;
+    top: 4px;
+}
+.artistDetail{
+    margin-left: 12px;
+}
+.batch{
+    position: relative;
+    bottom: 25px;
+}
